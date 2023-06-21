@@ -1,0 +1,76 @@
+body{
+    background-image: url('46505.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: bisque;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+
+}
+
+td{
+
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: white;
+}
+
+input[type='text'],input[type='number']{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type='submit'],input[type='reset']{
+    background-color: rgb(59, 133, 237);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+input[type='submit']:hover{
+    background-color: aqua;
+}
+
+input[type='reset']:hover{
+    background-color: aqua;
+}
+
+button{
+    background-color: bisque;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+background-color: aqua;
+
+}
